@@ -1,0 +1,220 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Popins', sans-serif;
+  color: #222;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+body {
+  color: white;
+}
+
+.title {
+  padding: 50px 0 50px;
+  font-weight: bold;
+}
+
+.title h4 {
+  padding-top: 10px;
+}
+
+hr.underline {
+  border-bottom: 1px solid #dddddd;
+  width: 75%;
+  margin-top: 80px;
+}
+
+hr.underline2 {
+  border-bottom: 1px solid black;
+  width: 75%;
+  margin-top: 80px;
+}
+
+.narrow {
+  width: 75%;
+  margin: 60px auto;
+}
+
+
+/*--- Navigation ---*/
+
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 40px;
+}
+
+/*--- Slides ---*/
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel {
+  background: linear-gradient(#FFF, black);
+}
+
+.gradient {
+  height: 150px;
+  background: -moz-linear-gradient(top, black, #305089, #343A40);
+  background: -webkit-linear-gradient(top, black, #305089, #343A40);
+  background: linear-gradient(to bottom, black, #305089, #343A40);
+}
+
+/*--- Business ---*/
+
+#business img {
+  width: 100%;
+}
+
+/*--- Factory ---*/
+
+.text h3 {
+  margin: 30px 0 30px 20px;
+}
+
+.text p {
+  padding: 20px;
+  line-height: 30px;
+}
+
+.factory img {
+  width: 100%;
+}
+
+.factory  {
+  padding-top: 20px;
+}
+
+/*--- Company ---*/
+
+table {
+  margin: 0 auto;
+}
+
+/*--- Access ---*/
+
+#access {
+  background-color: #dddddd!important;
+  color: black;
+}
+
+.marine img {
+  width: 100%;
+}
+
+.adress h5 {
+  margin-top: 30px;
+}
+
+.adress p {
+  padding-top: 10px;
+}
+
+/*--- Footer ---*/
+
+footer {
+  padding: 10px 0 20px;
+}
+
+/*--- レスポンシブデザイン ---*/
+
+@media (max-width: 576px) {
+  
+  .narrow {
+    width: 100%;
+  } 
+  
+  .gradient {
+    display: none;
+  }
+  
+  .title {
+    padding: 10px 0 10px;
+    margin: 10px 0 10px;
+  }
+  
+  .title h1 {
+    font-size: 20px;
+  }
+  
+  .title h4 {
+    font-size: 15px;
+  }
+  
+  .text h3 {
+    font-size: 13px;
+    padding: 10px 0 10px;
+  }
+  
+  .text p {
+    font-size: 12px;
+  }
+  
+  .factory p {
+    font-size: 12px;
+    padding: 10px 0 20px;
+  }
+  
+  .factory hr {
+    display: none;
+  }
+  
+  small {
+    font-size: 10px;
+  }
+  
+}
+
+
+@media (max-width: 992px) {
+  
+  
+  iframe {
+    display: none;
+  }
+  
+  .navbar img {
+    width: 200px;
+  }
+  
+  #navbarResponsive ul {
+    font-size: 12px;
+  }
+  
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
